@@ -8,8 +8,6 @@ print(data["level"])
 
 
 
-import json
-
 student = {
     "name": "Ayan",
     "age": 18,
@@ -19,3 +17,16 @@ student = {
 result = json.dumps(student)
 
 print(result)
+
+
+
+import json
+
+data = {
+    "city": "Almaty",
+    "population": 2000000,
+    "capital": False
+}
+
+print(json.dumps(data))
+
