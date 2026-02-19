@@ -9,5 +9,15 @@ print(now.day)
 print(now.hour)
 print(now.minute)
 
-print("next task")
+print("next task.")
 
+
+import datetime
+
+now = datetime.datetime.now()
+
+weekday = now.strftime("%A")
+short_date = now.strftime("%d-%m-%Y")
+
+print(weekday)
+print(short_date)
