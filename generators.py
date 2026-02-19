@@ -40,17 +40,23 @@ def simple_generator():
     yield 2
     yield 3
 
-
-
-
 for value in simple_generator():
     print(value)
+
+
+
 
 def count_down(n):
     while n > 0:
         yield n
         n -= 1
 
-
 for number in count_down(3):
     print(number)
+
+
+
+squares = (x * x for x in range(1, 4))
+
+for s in squares:
+    print(s)
