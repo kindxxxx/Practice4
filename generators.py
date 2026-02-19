@@ -5,7 +5,7 @@ print(next(it))
 print(next(it))
 print(next(it))
 
-
+print("next example")
 
 
 word = "cat"
@@ -14,7 +14,7 @@ it_word = iter(word)
 for letter in it_word:
     print(letter)
 
-
+print("next example")
 
 
 class SimpleCounter:
@@ -33,7 +33,7 @@ class SimpleCounter:
         self.current += 1
         return value
 
-
+print("next example")
 
 def simple_generator():
     yield 1
@@ -43,7 +43,7 @@ def simple_generator():
 for value in simple_generator():
     print(value)
 
-
+print("next example")
 
 
 def count_down(n):
@@ -54,7 +54,7 @@ def count_down(n):
 for number in count_down(3):
     print(number)
 
-
+print("next example")
 
 squares = (x * x for x in range(1, 4))
 
