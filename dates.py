@@ -36,3 +36,13 @@ print(exam_date.strftime("%A"))
 
 
 print("next task")
+
+
+import datetime
+
+text = "2026-03-15 09:00"
+dt = datetime.datetime.strptime(text, "%Y-%m-%d %H:%M")
+
+print(dt)
+print(dt.hour)
+print(dt.minute)
