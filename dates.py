@@ -62,3 +62,17 @@ before_10_days = today - datetime.timedelta(days=10)
 print(today)
 print(after_30_days)
 print(before_10_days)
+
+
+print("next task")
+
+
+
+import datetime
+
+start = datetime.date(2026, 1, 1)
+end = datetime.date(2026, 2, 1)
+
+difference = end - start
+
+print(difference.days)
