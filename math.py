@@ -1,3 +1,5 @@
+import math
+
 numbers = [3, 15, 7, 22, 1]
 
 print(min(numbers))
@@ -23,6 +25,14 @@ import math
 value = math.sqrt(81)
 
 print(value)
+
+
+
+a = math.ceil(2.3)
+b = math.floor(2.3)
+
+print(a)
+print(b)
 
 
 
