@@ -46,3 +46,19 @@ dt = datetime.datetime.strptime(text, "%Y-%m-%d %H:%M")
 print(dt)
 print(dt.hour)
 print(dt.minute)
+
+
+print("next task")
+
+
+
+import datetime
+
+today = datetime.date.today()
+
+after_30_days = today + datetime.timedelta(days=30)
+before_10_days = today - datetime.timedelta(days=10)
+
+print(today)
+print(after_30_days)
+print(before_10_days)
