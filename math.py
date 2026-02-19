@@ -15,3 +15,14 @@ print(y)
 result = pow(5, 2)
 
 print(result)
+
+
+
+import math
+
+value = math.sqrt(81)
+
+print(value)
+
+
+
