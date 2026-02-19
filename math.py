@@ -9,3 +9,9 @@ x = -12.5
 y = abs(x)
 
 print(y)
+
+
+
+result = pow(5, 2)
+
+print(result)
