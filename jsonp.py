@@ -20,8 +20,6 @@ print(result)
 
 
 
-import json
-
 data = {
     "city": "Almaty",
     "population": 2000000,
@@ -29,4 +27,16 @@ data = {
 }
 
 print(json.dumps(data))
+
+
+
+info = {
+    "subject": "Programming",
+    "credits": 5
+}
+
+with open("data.json", "w") as f:
+    json.dump(info, f)
+
+
 
