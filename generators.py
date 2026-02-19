@@ -5,11 +5,17 @@ print(next(it))
 print(next(it))
 print(next(it))
 
+
+
+
 word = "cat"
 it_word = iter(word)
 
 for letter in it_word:
     print(letter)
+
+
+
 
 class SimpleCounter:
     def __init__(self, limit):
@@ -26,3 +32,15 @@ class SimpleCounter:
         value = self.current
         self.current += 1
         return value
+
+
+
+def simple_generator():
+    yield 1
+    yield 2
+    yield 3
+
+
+for value in simple_generator():
+    print(value)
+
